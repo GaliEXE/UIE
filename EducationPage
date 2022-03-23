@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<head>
+<title>UI Education</title>
+<link rel="icon" href="Favicon.ico" type="image/x-icon" />
+<style>
+  
+body {
+margin: -.5px;
+background-color: #3A3B3C;
+   }
+
+html {
+padding: 0px;
+margin: 0px auto;
+heigh: 100%;
+overflow-y: scroll;
+  }
+
+.Topnav {
+background-color: #242526;
+border-size: 2px;
+border-bottom-style: solid;
+border-top-style: none;
+border-collapse: separate;
+border-color: gray;
+width: 100%;
+height: 50px;
+top: 0px;
+position: fixed;
+z-index: 10;
+  }
+  
+.UIE {
+font-size: 30px;
+padding-right: 50px;
+  }
+
+.tnbuttons {
+text-align: right;
+font-size: 20px;
+border-color: #808080;
+border-left-style: solid;
+padding: 0px;
+  }
+  
+.tnbuttons:hover p {
+text-decoration:underline;
+  }
+  
+.UIE:hover P {
+text-decoration:underline;
+  }
+  
+.tnbuttons p {
+display: block;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+  }
+  
+  .UIE p {
+display: block;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+  }
+
+</style>
+<html>
+<body>
+<div>
+  <table class="Topnav">
+    <tr>
+      <td class="UIE"><a href="index.html" style="text-decoration:none"><Font color="white"><p><b>UI Engineer</b></p></a></td>
+      <td class="tnbuttons"><a href="ResponsibilitiesPage.html"><Font color="white"><b>Responsibilities</b></a></td>
+      <td class="tnbuttons"><Font color="white"><p><u><b>Education</b><u></p></td>
+      <td class="tnbuttons"><Font color="white"><p><b>Income</b></p></td>
+      <td class="tnbuttons"><Font color="white"><p><b>Workplace</b></p></td>
+      <td class="tnbuttons"><Font color="white"><p><b>Related Jobs</b></p></td>
+      <td class="tnbuttons"><Font color="white"><p><b>Resources</b></p></td>
+    </tr>
+  </table>
+ </div>
